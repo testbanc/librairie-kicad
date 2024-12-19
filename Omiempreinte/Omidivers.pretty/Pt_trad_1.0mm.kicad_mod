@@ -1,0 +1,103 @@
+(footprint "Pt_trad_1.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)")
+	(tags "audio belton reverb")
+	(property "Reference" "REF**"
+		(at 4.66 1.48 0)
+		(layer "F.SilkS")
+		(uuid "7cdb7b63-0cb3-45a2-ae96-1469165f97de")
+		(effects
+			(font
+				(size 2 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pt_trad_1.0mm"
+		(at 8.77 5.71 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcad93d1-648a-41e5-ae58-8359241c25a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f112c95-1f9f-462c-baf2-6a1d92b2e609")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccc070ec-f9c4-4374-b4da-e9d283a2768a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10e56317-5ffe-4e71-a23e-2feae5403635")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0.89 2.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e9190f2a-05fa-467d-aa78-f977f5072200")
+		(effects
+			(font
+				(size 2 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed7b829f-946b-434f-a202-e156fe747536")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Audio_Module.3dshapes/Reverb_BTDR-1H.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

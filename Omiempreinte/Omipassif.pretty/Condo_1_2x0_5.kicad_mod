@@ -1,11 +1,11 @@
-(footprint "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+(footprint "Condo_1_2x0_5"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(descr "Capacitor SMD THT")
 	(tags "capacitor handsolder")
-	(property "Reference" "RC_1206**"
+	(property "Reference" "RC**"
 		(at 0 -1.85 0)
 		(layer "F.SilkS")
 		(uuid "b407f268-daf0-4d1d-a344-899359edb348")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "C_1206_3216Metric_Pad2x1.80mm_HandSolder"
+	(property "Value" "0"
 		(at 0 2.032 0)
 		(layer "F.Fab")
 		(uuid "d16e2670-786f-4e93-8805-45c64ffa3fdf")
@@ -27,11 +27,11 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Omipassif:Condo_1_2x0_5"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "db0fc8a4-14aa-4c53-9c4c-c26d4e4d72bf")
+		(uuid "7ca0cd15-0a81-4dbf-b24d-21abb5a2dc3d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b062b87d-3eb6-4fcc-a373-39565db4506c")
+		(uuid "b49120c4-b657-47a8-be75-9e9b3c3228d0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "053379ff-06ad-435a-be3e-5d898cc76b72")
+		(uuid "e60871ab-19cf-4425-b22c-0d2876a743fd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,61 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(property "RefBot" "RC"
+		(at 0 0 0)
+		(layer "B.SilkS")
+		(uuid "90546fae-b464-4f2a-862a-3fa5e96bd19a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "ValeurBotFab" "0"
+		(at 0 0 0)
+		(layer "B.SilkS")
+		(uuid "0b5558e5-82f4-48c7-b954-91b4ecd6fc39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "ValeurTopSilk" "0"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "dd4a7274-5ca6-4157-abfa-bc3e1f42a404")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_line
+		(start -5.01 -1.27)
+		(end -5.01 13.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19fdf24a-4aaa-40e6-b3f6-74146b80f460")
+	)
+	(fp_line
+		(start -5 13.27)
+		(end 5 13.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6407a690-7b0b-429d-8406-f27abe0503b5")
+	)
 	(fp_line
 		(start -0.44 -0.91)
 		(end 0.49 -0.91)
@@ -85,7 +139,27 @@
 		(uuid "0cab1f8b-d10f-4e9f-a32e-3ad7cc69be4e")
 	)
 	(fp_line
-		(start -5.01 1.27)
+		(start 5 -1.27)
+		(end -5 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f797fca3-d3ad-4609-becc-63ac6aa19e2c")
+	)
+	(fp_line
+		(start 5 13.27)
+		(end 5 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "32d230e5-8f53-401a-8ec2-b8c43ed8522d")
+	)
+	(fp_line
+		(start -5.01 13.27)
 		(end -5.01 -1.27)
 		(stroke
 			(width 0.05)
@@ -106,7 +180,7 @@
 	)
 	(fp_line
 		(start 5 -1.27)
-		(end 5 1.27)
+		(end 5 13.27)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -115,8 +189,8 @@
 		(uuid "c8ebac23-3aa9-45f1-962e-14fac50864e6")
 	)
 	(fp_line
-		(start 5 1.27)
-		(end -5.01 1.27)
+		(start 5 13.27)
+		(end -5.01 13.27)
 		(stroke
 			(width 0.05)
 			(type solid)
