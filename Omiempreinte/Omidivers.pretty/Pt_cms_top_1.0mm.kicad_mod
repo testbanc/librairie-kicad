@@ -1,4 +1,4 @@
-(footprint "Pt_cms_bot_1.0mm"
+(footprint "Pt_cms_top_1.0mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			(justify mirror)
 		)
 	)
-	(property "Value" "Pt_cms_bot_1.0mm"
+	(property "Value" "Pt_cms_top_1.0mm"
 		(at 0 1.5 0)
 		(unlocked yes)
 		(layer "B.Fab")
@@ -74,7 +74,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "e9ffcd43-0cfe-422a-ac5f-dcdbcfebdc09")
 	)
 	(fp_text user "${REFERENCE}"
@@ -92,7 +92,7 @@
 	(pad "1" smd circle
 		(at 0 0.03)
 		(size 1 1)
-		(layers "B.Cu" "B.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "5e568aa7-2310-4408-9473-2e0116eb213b")
 	)
 )

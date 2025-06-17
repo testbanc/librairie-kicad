@@ -1,0 +1,161 @@
+(footprint "Conn_Banane_4mm_H"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Connecteur banane 4mm sur pcb horizontal")
+	(tags "Connecteur banane 4mm sur pcb horizontal")
+	(property "Reference" "REF**"
+		(at -7.65 -0.9 0)
+		(layer "F.SilkS")
+		(uuid "5776ae25-1083-493f-b20d-d0e11846a693")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Banane_4mm_H"
+		(at -0.415 19.01 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7258ccf-ec0f-4bc8-9258-728d424dca5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Omiconnecteur:Conn_Banane_4mm_H"
+		(at 3.625 20.84 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f0391ce-aebd-45b1-9c12-0910c24976a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -5.375 20.84 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f05b6f60-6692-4b35-a9fa-e61c18ab7b5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 5.625 19.84 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a876c159-04c7-4cf2-8ad8-17c7ae2dfc1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.95 -2.2)
+		(end 4.95 18.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3d524a98-80f1-45fa-a31e-efc1cdef083b")
+	)
+	(fp_rect
+		(start -4.5 -4.6)
+		(end 4.5 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "56f70f60-df4a-4ede-b052-a6d43fdbd251")
+	)
+	(fp_rect
+		(start -5 -4.85)
+		(end 5 18.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5879935f-d109-4f17-958c-549e8ca2259f")
+	)
+	(fp_rect
+		(start -4.95 -2.2)
+		(end 4.95 18.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "55a35c95-f1fd-4a24-9044-7b8d1c0d84d9")
+	)
+	(fp_rect
+		(start -4.5 -4.6)
+		(end 4.5 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "08cb3328-42d1-4c08-a140-317cf677fbaf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.125 3.34 180)
+		(layer "F.Fab")
+		(uuid "3309e72f-ba59-46db-9cf6-e8e6c6b09859")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0aed385b-2997-4c20-a83b-d6ee81a66e19")
+	)
+	(pad "1" thru_hole circle
+		(at 0 15.3)
+		(size 2.5 2.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "649f1f33-2e73-451a-88cc-580750eab590")
+	)
+	(model "${OMI3D}/Omiconnecteur/PinHeader_2x10_P2.54mm_V_omi.wrl"
+		(offset
+			(xyz -4.875 2.16 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

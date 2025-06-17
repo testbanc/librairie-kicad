@@ -1,4 +1,4 @@
-(footprint "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+(footprint "SUP_C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -6,7 +6,7 @@
 	(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor handsolder")
 	(property "Reference" "RC_1206**"
-		(at 0 -1.85 0)
+		(at 0.8 -2 0)
 		(layer "F.SilkS")
 		(uuid "b407f268-daf0-4d1d-a344-899359edb348")
 		(effects
@@ -165,7 +165,7 @@
 		(uuid "ab5c20ae-61bc-4223-b82c-4f2a17678f69")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.8 -3 0)
+		(at 0.15 -2.05 0)
 		(layer "F.Fab")
 		(uuid "e745c535-c330-49e3-8f6e-f70f98e36d28")
 		(effects

@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Pt_trad_1.0mm"
-		(at 8.77 5.71 0)
+		(at 7 3 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "bcad93d1-648a-41e5-ae58-8359241c25a7")
@@ -69,7 +69,7 @@
 	)
 	(attr through_hole)
 	(fp_text user "${REFERENCE}"
-		(at 0.89 2.62 0)
+		(at 1.5 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e9190f2a-05fa-467d-aa78-f977f5072200")
