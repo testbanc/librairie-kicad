@@ -7,32 +7,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 1.016 5.842 0)
+			(at 4.572 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TMUX1574"
+			(at 4.064 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Footprint" "OmiEntreeSortie:TMUX1574"
+			(at 4.064 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,8 +31,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftmux1574"
+			(at 3.048 -24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,8 +40,8 @@
 				(hide yes)
 			)
 		)
-		(property "Fabriquant " ""
-			(at 0 0 0)
+		(property "Description" "IC SWITCH SPDTX4 4.5OHM 16TSSOP"
+			(at 4.572 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,8 +49,8 @@
 				(hide yes)
 			)
 		)
-		(property "Fabreference" ""
-			(at 0 0 0)
+		(property "Fabriquant " "Texas Instruments"
+			(at 3.302 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,8 +58,8 @@
 				(hide yes)
 			)
 		)
-		(property "Omicron" ""
-			(at 0 0 0)
+		(property "Fabreference" "TMUX1574PWR"
+			(at 4.064 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,8 +67,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributeur1" ""
-			(at 0 0 0)
+		(property "Omicron" "NC"
+			(at 4.318 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,8 +76,17 @@
 				(hide yes)
 			)
 		)
-		(property "Distributeur2" ""
-			(at 0 0 0)
+		(property "Distributeur1" "DK:296-53444-2-ND"
+			(at 3.302 -24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" "M:595-TMUX1574PWR"
+			(at 2.54 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)

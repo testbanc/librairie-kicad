@@ -7,32 +7,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -0.254 20.828 0)
+			(at 0 14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -7.62 7.62 0)
+		(property "Value" "AD5593R"
+			(at 0.508 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -7.62 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -7.62 7.62 0)
+		(property "Footprint" "OmiEntreeSortie:AD5593RBRUZ"
+			(at -1.016 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,8 +31,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -7.62 7.62 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ANDI/ANDI-S-A0006763626/ANDI-S-A0006763626-1.pdf?hkey=52A5661711E402568146F3353EA87419"
+			(at -6.858 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Convertisseur analogique vers numérique, 12 bit, 400 kSPS, Série, I2C, SPI, Simple, 2.7 V"
+			(at -6.858 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" "ANALOG DEVICES"
+			(at 1.524 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" "AD5593RBRUZ"
+			(at 1.27 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" "nc"
+			(at 2.286 -16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" "F:4016364"
+			(at 1.016 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" "RS: 875-4815P"
+			(at 1.778 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,8 +439,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "OmiEntreeSortie:SOIC127P1030X265-24N"
+			(at 2.54 -16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)

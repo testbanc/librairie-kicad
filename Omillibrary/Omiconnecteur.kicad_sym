@@ -2433,7 +2433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x32_P2.54mm_pinheader_vertical"
+		(property "Value" "Conn_01x20_P2.54mm_pinheader_vertical"
 			(at 3.81 -8.89 90)
 			(effects
 				(font
@@ -2443,7 +2443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Omiconnecteur:PinHeader_1x32_P2.54mm_V_omi"
+		(property "Footprint" "Omiconnecteur:PinHeader_1x20_P2.54mm_V_omi"
 			(at 3.81 -17.78 90)
 			(effects
 				(font
