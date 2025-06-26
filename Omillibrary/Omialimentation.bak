@@ -99,6 +99,14 @@
 			)
 		)
 		(symbol "L7805_1_1"
+			(text "omi\n"
+				(at -0.508 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin power_in line
 				(at -7.62 1.27 0)
 				(length 2.54)
