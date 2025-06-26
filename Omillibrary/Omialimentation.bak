@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at -7.62 0 0)
+		(property "Value" "L7805CV"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "Omialimentation:L7805CV"
-			(at -7.366 6.604 0)
+			(at -0.508 -17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,8 +31,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -7.62 0 0)
+		(property "Datasheet" "https://docs.rs-online.com/4488/0900766b814b241f.pdf"
+			(at -4.318 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,8 +40,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -7.62 0 0)
+		(property "Description" "Régulateur de tension L7805CV, 1.5A, A-220, 3 broches."
+			(at -7.62 -17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" "STMicroelectronics"
+			(at 0.254 -17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" " L7805CV"
+			(at -0.254 -16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" "RS: 918-1971"
+			(at 0.508 -17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" "F : 9756078"
+			(at -0.508 -17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -123,16 +159,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "LM317"
-			(at -8.128 5.334 0)
+		(property "Reference" "J"
+			(at 0 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -3.81 5.08 0)
+		(property "Value" "LM317"
+			(at -0.508 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +176,7 @@
 			)
 		)
 		(property "Footprint" "Omialimentation:LM317T"
-			(at -4.318 7.366 0)
+			(at -3.302 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,8 +184,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -3.81 5.08 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm117hv.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1750682015429&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm117hv"
+			(at -3.048 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,8 +193,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -3.81 5.08 0)
+		(property "Description" "PMIC - Régulateurs de tension - Linéaires Positif Réglable 1 Sortie 1,5A TO-220-3"
+			(at -3.048 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" "Texas Instruments"
+			(at -1.778 -13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" "LM317HVT/NOPB"
+			(at -0.254 -14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" "1564497"
+			(at 0.762 -14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" "D:LM317HVT/NOPB-ND"
+			(at -2.032 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" "M:926-LM317HVT/NOPB"
+			(at -0.254 -14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -180,6 +261,14 @@
 			)
 		)
 		(symbol "LM317_1_1"
+			(text "omi\n"
+				(at -0.254 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin input line
 				(at 0 -6.35 90)
 				(length 2.54)
@@ -227,6 +316,247 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TEN8_1223"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0.508 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TEN8_1223_0_1"
+			(rectangle
+				(start -6.35 10.668)
+				(end 7.62 -12.192)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TEN8_1223_1_1"
+			(text "omi\n"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "TEN8\n"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -8.89 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -8.89 180)
+				(length 2.54)
+				(name "-Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 6.35 180)
+				(length 2.54)
+				(name "+Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 3.81 0)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 6.35 0)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
