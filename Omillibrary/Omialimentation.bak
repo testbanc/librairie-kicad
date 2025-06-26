@@ -107,7 +107,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -7.62 1.27 0)
 				(length 2.54)
 				(name "VI"
@@ -125,7 +125,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 0 -6.35 90)
 				(length 2.54)
 				(name "GND"
@@ -143,7 +143,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 7.62 1.27 180)
 				(length 2.54)
 				(name "VO"
@@ -295,7 +295,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at 7.62 1.27 180)
 				(length 2.54)
 				(name "VO"
@@ -313,7 +313,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -7.62 1.27 0)
 				(length 2.54)
 				(name "VI"
@@ -328,6 +328,115 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Support_pile"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0.254 7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Support_pile_0_0"
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Support_pile_0_1"
+			(rectangle
+				(start -5.08 1.524)
+				(end 5.08 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Support_pile_1_1"
+			(text "omi\n"
+				(at -0.254 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
